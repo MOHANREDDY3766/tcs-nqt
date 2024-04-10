@@ -1,0 +1,28 @@
+It seems you're looking for the coding problem statements from the TCS National Qualifier Test (NQT). Here are a couple of examples of the types of problems that were given in the test:
+
+1. **Chocolate Factory Problem**:
+   - **Problem Statement**: A chocolate factory is packing chocolates into packets represented by an array of integers. The task is to find the empty packets (0) and push them to the end of the array.
+   - **Example**:
+     - Input: N=8 and arr = [4,5,0,1,9,0,5,0]
+     - Output: [4,5,1,9,5,0,0,0]
+
+2. **Digital Logic Problem**:
+   - **Problem Statement**: Given a positive integer as input, convert it to binary, toggle all bits after the most significant bit including the most significant bit, and print the positive integer value after toggling.
+   - **Example**:
+     - Input: 10
+     - Output: 5
+     - **Explanation**: Binary of 10 is 1010. After toggling, it becomes 0101, which is 5 in decimal.
+
+3. **Counting Sundays Problem**:
+   - **Problem Statement**: Given the start day of the month and the number of days in the month, count the number of Sundays that occur.
+   - **Example**:
+     - Input: Start day - Monday, Number of days - 13
+     - Output: 2 Sundays
+
+These problems test various skills like array manipulation, binary operations, and logical reasoning. If you need more details or help with solving these types of problems, feel free to ask!
+
+Source: Conversation with Bing, 4/10/2024
+(1) TCS NQT Coding Questions and Answers 2024 | PrepInsta. https://prepinsta.com/tcs-nqt/placement-papers/coding-questions/.
+(2) TCS Coding Questions & Programming Round (Repeated)-2023 - PrepInsta. https://prepinsta.com/tcs/tcs-coding-questions/.
+(3) TCS NQT Coding Questions and Answers 2024 | PrepInsta. https://bing.com/search?q=TCS+NQT+coding+problem+statement.
+(4) TCS NQT Coding Questions and answers for 2024. https://prepinstaprime.com/admin/tcs-nqt-practice-coding-questions-and-answers/.
