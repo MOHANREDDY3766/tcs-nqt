@@ -5,6 +5,38 @@ It seems you're looking for the coding problem statements from the TCS National 
    - **Example**:
      - Input: N=8 and arr = [4,5,0,1,9,0,5,0]
      - Output: [4,5,1,9,5,0,0,0]
+# This line creates a list 'L' by mapping the 'int' function (which converts strings to integers)
+# to each element in the list created by splitting the input string on spaces.
+# The input is taken from the user and split into a list of strings, then each string is converted to an integer.
+L = list(map(int, input('Enter the orders : ').split(' ')))
+
+# An empty list 'L1' is created. This will be used to store the non-zero elements from 'L'.
+L1 = []
+
+# 'temp' is initialized to 0. It will count the number of zeros in 'L'.
+temp = 0
+
+# This 'for' loop iterates over each element in 'L'.
+for i in L:
+    # If the current element 'i' is not zero, it is appended to 'L1'.
+    if i != 0:
+        L1.append(i)
+    # If 'i' is zero, 'temp' is incremented by 1.
+    else:
+        temp += 1
+
+# After the loop, if 'temp' is not zero (meaning there were zeros in 'L'),
+# this 'if' block will execute.
+if temp != 0:
+    # Another 'for' loop runs 'temp' times.
+    for i in range(temp):
+        # For each iteration, a zero is appended to 'L1'.
+        L1.append(0)
+
+# Finally, 'L1' is printed, which now contains all the non-zero elements from 'L',
+# followed by all the zeros that were in 'L'.
+print(L1)
+
 
 2. **Digital Logic Problem**:
    - **Problem Statement**: Given a positive integer as input, convert it to binary, toggle all bits after the most significant bit including the most significant bit, and print the positive integer value after toggling.
@@ -12,6 +44,10 @@ It seems you're looking for the coding problem statements from the TCS National 
      - Input: 10
      - Output: 5
      - **Explanation**: Binary of 10 is 1010. After toggling, it becomes 0101, which is 5 in decimal.
+import math
+n = int(input("enter the value :"))
+k = (1 << (int(math.log2(n)) + 1)) -1
+print(n^k)
 
 3. **Counting Sundays Problem**:
    - **Problem Statement**: Given the start day of the month and the number of days in the month, count the number of Sundays that occur.
